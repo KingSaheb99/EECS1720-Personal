@@ -1,3 +1,7 @@
+12/01/22:
+Decided to start a new project. I'm imagining my own take on a physics engine in Processing. Right now I'm just gonna aim for a ball that jumps in the direction of the
+mouse with selectable forces when clicked/held. Will work off of this after it's completed.
+
 13/01/22:
 Worked some more on the "Force SImulator". Upgraded the bal to its own class and moved related code over. 
 Saved as a branch to the original. Will merge after some more progress is made.
