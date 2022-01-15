@@ -1,2 +1,6 @@
+13/01/22:
+Worked some more on the "Force SImulator". Upgraded the bal to its own class and moved related code over. 
+Saved as a branch to the original. Will merge after some more progress is made.
+
 14/01/22:
 Created this repo and read through some things on the p5.js reference to see what I could add to the examplke from Thursday's class.
