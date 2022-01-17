@@ -11,3 +11,7 @@ Created this repo and read through some things on the p5.js reference to see wha
 
 15/01/22:
 Moved the class repo conent over to here. Looked through the code to try and get a better handle on JS
+
+16/01/22:
+Uploaded the changes to the example from Lecture 2. Made the ball change colours every second. constrained its x and y positions to the edges of the canvas, 
+replaced some hard values with named variables to increases readability, tested the default ellipse setting.
