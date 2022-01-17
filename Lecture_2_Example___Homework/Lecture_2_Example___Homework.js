@@ -1,6 +1,9 @@
 var w;
+var walkerSize = 48;
+
 var timer = 0;
 var timeOut = 1000;
+
 var r, g, b;
 
 function setup()
@@ -8,6 +11,8 @@ function setup()
   createCanvas(640, 360);
   
   w = new Walker();
+  
+  ellipseMode(CENTER); //This seems to be the default. Redundant line of code
 }
 
 function draw()
@@ -27,6 +32,9 @@ function Walker()
     var vel = createVector(random(-5, 5), random(-5, 5));
     
     this.pos.add(vel);
+    
+    this.pos.x = constrain(this.pos.x, 0 + walkerSize/2, width - walkerSize/2);
+    this.pos.y = constrain(this.pos.y, 0 + walkerSize/2, height - walkerSize/2);
   }
   
   this.display = function()
@@ -42,6 +50,6 @@ function Walker()
     
     fill(r, g, b);
     
-    ellipse(this.pos.x, this.pos.y, 48, 48);
+    ellipse(this.pos.x, this.pos.y, walkerSize, walkerSize);
   }
 }
