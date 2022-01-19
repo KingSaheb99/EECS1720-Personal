@@ -15,3 +15,6 @@ Moved the class repo conent over to here. Looked through the code to try and get
 16/01/22:
 Uploaded the changes to the example from Lecture 2. Made the ball change colours every second. constrained its x and y positions to the edges of the canvas, 
 replaced some hard values with named variables to increases readability, tested the default ellipse setting.
+
+18/01/22:
+Watched some videos on browser extensions in prep for lab.
